@@ -1,0 +1,15 @@
+{
+    "name": "ahlam/mvc1",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahlam Mohmmed",
+            "email": "ahlam93mm@gmail.com"
+        }
+    ],
+    "require": {}
+}
