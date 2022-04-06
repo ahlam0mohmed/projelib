@@ -62,7 +62,7 @@
             </li>
             <li>
                 <div class="dropdown">
-                    <a href="#">جميع الأقسام</a>
+                    <a href="/all_category">جميع الأقسام</a>
                     <hr
                         style="height:2px;border-width:0;color:rgb(109, 108, 110);background-color:rgb(109, 108, 110);width: 90%;">
                     <div class="dropdown-content">

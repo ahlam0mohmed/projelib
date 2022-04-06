@@ -10,7 +10,7 @@ use app\app\models\Category;
  * @author Andrew Dyer <andrewdyer@outlook.com>
  * @since 1.0.2
  */
-class Login extends Core\Controller {
+class Login extends Controller {
 
     /**
      * Index: Renders the login view. NOTE: This controller can only be accessed

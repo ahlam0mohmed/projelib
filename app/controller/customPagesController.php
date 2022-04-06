@@ -12,5 +12,14 @@ class CustomPagesController extends Controller{
     public function notAuthroized(){
         
     }
+    public function detals()
+    {
+        $this->view('details');
+    }
+
+    public function category()
+    {
+        $this->view('category');
+    }
 }
 ?>

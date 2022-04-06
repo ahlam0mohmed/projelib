@@ -33,20 +33,20 @@
     <h3>العروض الحالية</h3>
     <div class="free">
         <div class="img1">
-            <a href="details.php">
+            <a href="/detail">
                 <img src="images/32.JPG" class="view-img-btn" onclick="callImage(this);" alt="">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"><img src="images/32.JPG" class="view-img-btn" onclick="callImage(this);" alt="">
+            <a href="/detail"><img src="images/32.JPG" class="view-img-btn" onclick="callImage(this);" alt="">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"> <img src="images/32.JPG" class="view-img-btn" onclick="callImage(this);" alt="">
+            <a href="/detail"> <img src="images/32.JPG" class="view-img-btn" onclick="callImage(this);" alt="">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php">
+            <a href="/detail">
                 <img src="images/32.JPG" class="view-img-btn" onclick="callImage(this);" alt="">
             </a>
         </div>
@@ -55,20 +55,20 @@
     <div class="free">
 
         <div class="img1">
-            <a href="details.php">
+            <a href="/detail">
                 <img src="images/31.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"><img src="images/31.JPG">
+            <a href="/detail"><img src="images/31.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"> <img src="images/31.JPG">
+            <a href="/detail"> <img src="images/31.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php">
+            <a href="/detail">
                 <img src="images/31.JPG">
             </a>
         </div>
@@ -76,20 +76,20 @@
     <h3><span>كتب دينية</span></h3>
     <div class="free">
         <div class="img1">
-            <a href="details.php">
+            <a href="/detail">
                 <img src="../public/img/33.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"><img src="../public/img/33.JPG">
+            <a href="/detail"><img src="../public/img/33.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"> <img src="../public/img/33.JPG">
+            <a href="/detail"> <img src="../public/img/33.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php">
+            <a href="/detail">
                 <img src="../public/img/33.JPG">
             </a>
         </div>
@@ -97,20 +97,20 @@
     <h3><span>طبخ</span></h3>
     <div class="free">
         <div class="img1">
-            <a href="details.php">
+            <a href="/detail">
                 <img src="../public/img/34.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"><img src="../public/img/34.JPG">
+            <a href="/detail"><img src="../public/img/34.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"> <img src="../public/img/34.JPG">
+            <a href="/detail"> <img src="../public/img/34.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php">
+            <a href="/detail">
                 <img src="images/34.JPG">
             </a>
         </div>
@@ -118,20 +118,20 @@
     <h3><span>اقتصاد</span></h3>
     <div class="free">
         <div class="img1">
-            <a href="category.php">
+            <a href="/detail">
                 <img src="images/35.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"><img src="images/35.JPG">
+            <a href="/detail"><img src="images/35.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"> <img src="images/35.JPG">
+            <a href="/detail"> <img src="images/35.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php">
+            <a href="/detail">
                 <img src="images/35.JPG">
             </a>
         </div>
@@ -139,20 +139,20 @@
     <h3><span>سياسة</span></h3>
     <div class="free">
         <div class="img1">
-            <a href="details.php">
+            <a href="/detail">
                 <img src="images/36.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"><img src="images/36.JPG">
+            <a href="/detail"><img src="images/36.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php"> <img src="images/36.JPG">
+            <a href="/detail"> <img src="images/36.JPG">
             </a>
         </div>
         <div class="img1">
-            <a href="details.php">
+            <a href="/detail">
                 <img src="images/36.JPG">
             </a>
         </div>

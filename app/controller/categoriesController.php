@@ -15,7 +15,7 @@ class CategoriesController extends Controller{
 
     }
     function create(){
-        $this->view('add_category');
+        $this->view('add_category.php');
 
     }
 

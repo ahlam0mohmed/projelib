@@ -3,6 +3,10 @@ namespace app\app\controllers;
 
 use app\app\models\User;
 
-class orderController extends Controller{
+class OrderController extends Controller{
+
+    function order(){
+        $this->veiws('salh.php');
+    }
 
 }

@@ -8,5 +8,6 @@ class Order extends Model{
 
         parent::$tblName="order_details";
     }
+
 }
 ?>

@@ -1,12 +1,17 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use coding\app\controllers\AuthorsController;
-use coding\app\controllers\CategoriesController;
-use coding\app\controllers\PublishersController;
-use coding\app\system\AppSystem;
-use coding\app\system\Router;
-use coding\app\controllers\UsersController;
+use app\app\controllers\AuthorsController;
+use app\app\controllers\CategoriesController;
+use app\app\controllers\BoksController;
+use app\app\controllers\CustomPagesController;
+use app\app\controllers\Login;
+use app\app\controllers\OffersController;
+use app\app\controllers\OrderController;
+use app\app\controllers\PublishersController;
+use app\app\system\AppSystem;
+use app\app\system\Router;
+use app\app\controllers\UsersController;
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable(dirname(__DIR__));//createImmutable(__DIR__);
@@ -22,8 +27,12 @@ $config=array(
 $system=new AppSystem($config);
 
 /** web routes  */
+/**pages routes */
+Router::get('/error',[CustomPagesController::class,'notFound']);
+Router::get('/detal',[CustomPagesController::class,'detals']);
+Router::get('/category',[CustomPagesController::class,'category']);
 
-
+/**category routes */
 Router::get('/categories',[CategoriesController::class,'listAll']);
 Router::get('/add_category',[CategoriesController::class,'create']);
 Router::get('/edit_category/{id}',[CategoriesController::class,'edit']);
@@ -47,6 +56,9 @@ Router::get('/remove_offer/{id}/{name}',[OffersController::class,'remove']);
 Router::post('/save_offer',[OffersController::class,'store']);
 Router::post('/update_offer',[OffersController::class,'update']);
 
+
+/**user routes */
+Router::get('/new_user',[UsersController::class.'newUser']);
 
 /** end of web routes */
 
